@@ -24,6 +24,7 @@ A simple Python CLI project designed to help students manage assignments, track 
 - File handling
 - User input
 - Python modules
+- Classes and objects
 
 ## Requirements
 
