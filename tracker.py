@@ -35,9 +35,12 @@ class Tracker:
 
         i = 1
         for x in box:
-            d_msg = str(x.d) + " days"
-            if not x.done and x.d <= 2:
-                d_msg = d_msg + " [URGENT!]"
+            if x.done:
+                d_msg = "Completed"
+            else:
+                d_msg = str(x.d) + " days"
+                if int(x.d) <= 2:
+                    d_msg = d_msg + " [URGENT!]"
             print(f"{i:<5} {x.c:<10} {d_msg:<16} {x.p:<8} {x.t}")
             i = i + 1
         print("=" * 60)
