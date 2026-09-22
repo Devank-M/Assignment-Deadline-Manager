@@ -1,4 +1,4 @@
-# Deadline Manager
+# Assignment Deadline Manager
 
 A simple Python CLI project designed to help students manage assignments, track deadlines, and organize tasks based on priority.
 
